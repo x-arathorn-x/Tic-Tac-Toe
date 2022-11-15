@@ -43,3 +43,12 @@ def other_player(player):
         return "O"  # FIXME
     else:
         return "X"
+    
+#    if player == max_player:  
+#                # X is max player
+#                if sim_score['score'] > best['score']:
+#                    best = sim_score
+#            else:
+#                if sim_score['score'] < best['score']:
+#                    best = sim_score
+#        return best
